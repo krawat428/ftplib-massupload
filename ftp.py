@@ -9,7 +9,7 @@ password=''
 
 
 command1='ls {x1}'.format(x1=directory)
-os.chdir(dire)
+os.chdir(directory)
 
 
 a=os.popen(command1).read()
